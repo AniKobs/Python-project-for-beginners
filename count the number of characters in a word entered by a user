@@ -1,0 +1,10 @@
+name = input("Enter your name here: ")
+lname = name.lower()
+uname = set(lname)
+
+di = {}
+
+for k in uname:
+  di = {k : lname.count(k)}
+  if di.values() != 0:
+    print(di)
