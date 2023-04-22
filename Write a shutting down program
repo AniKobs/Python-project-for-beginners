@@ -1,0 +1,15 @@
+def shut_down(s):
+    if s.lower()=='yes':
+        return 'shutting down'
+    elif s.lower()== 'no':
+        return 'shutdown aborted'
+    else:
+        return 'sorry enter yes or no'
+        
+        
+        
+shut_down('yes') ## This will shut the system down
+
+shut_down('N') ## Thia will display 'shutdown aborted'
+
+## Anything else will display 'sorry, enter yes or no'
