@@ -1,0 +1,17 @@
+## In the case when you are adding all digits entered by a user
+
+st = input('Enter a number here: ')
+summ = 0
+for i in range(len(st)):
+  summ = summ + int(st[i])
+  
+print(summ)
+
+
+## In the case when adding say two numbers entered by a user
+
+num1 = eval(input('Enter the first number here: '))
+num2 = eval(input('Enter the second number here: '))
+summ = num1 + num2
+print(summ)
+
