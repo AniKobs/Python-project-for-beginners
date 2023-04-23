@@ -1,0 +1,9 @@
+## Ask the user for a  number and output if the number falls within a certain range
+
+def InRange(r):
+  n = eval(input('Enter a number here: '))
+  if n>=r[0] and n<=r[1]:
+      return '{} is in the range'.format(n)
+  return 'The number is outside the given range.'
+
+InRange([0,100])     
