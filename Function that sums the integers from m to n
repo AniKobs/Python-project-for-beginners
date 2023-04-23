@@ -1,0 +1,10 @@
+## Sum numbers from m  to n
+
+def sum_nm(m,n):
+    som=0
+    for i in range(m,n+1):
+        som=som+i**2
+    return som
+
+## Test code
+sum_nm(1,5)
