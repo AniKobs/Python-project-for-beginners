@@ -1,0 +1,20 @@
+## Checks if a number is a prime number or not
+
+def IsPrime(n):
+    
+    if n==1:
+        return "{} is a not prime".format(n)
+    else:
+        
+    
+        for i in range(2,n):
+
+            if n%i ==0:
+                return "{} is a not prime".format(n)
+
+        return "{}is a prime".format(n)
+   
+   
+   
+## Test the code
+IsPrime(1)
