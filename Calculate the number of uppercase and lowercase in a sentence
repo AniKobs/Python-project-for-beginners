@@ -1,0 +1,9 @@
+def characterCase(S):
+    result =  {"up":0,"lc":0}
+    for c in S:
+        if c.isupper() == True:
+            result["up"] += 1
+        elif c.islower():
+            result["lc"] += 1
+    return result
+characterCase("My mane is Anita")
