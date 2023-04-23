@@ -1,0 +1,10 @@
+## A python code that return all even numbers in a list of numbers
+
+def EvenNum(list1):
+    
+    return [i for i in list1 if i%2==0]
+    
+    
+## Test the code
+
+EvenNum([0,2,8,2,10,11,13])
