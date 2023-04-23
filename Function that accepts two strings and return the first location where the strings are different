@@ -1,0 +1,17 @@
+## Function that accepts two strings and return the first location where the strings are different
+
+def first_diff(s,j):
+    if len(s)<=len(j):
+        n= len(s)
+    else: 
+        n=len(j)
+    for i in range(n):
+        if s[i]!=j[i]:
+            return i
+    if len(s)==len(j):
+        return -1
+    else:
+        return n
+        
+ ## Test the code
+first_diff('Anita','Angela')
